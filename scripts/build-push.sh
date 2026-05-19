@@ -8,7 +8,7 @@
 
 set -euo pipefail
 
-DOCKER_USER="${DOCKER_USER:-tu-usuario}"
+DOCKER_USER="${DOCKER_USER:-laudainotta}"
 IMAGE_NAME="devops-portfolio"
 TAG="${1:-1.0}"
 FULL_TAG="$DOCKER_USER/$IMAGE_NAME:$TAG"
